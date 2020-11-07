@@ -10,4 +10,4 @@ Data-Structure-and-Algorithm                          //数据结构和算法知
 
 注意：
 
-若干文件中含有latex公式，github并不支持渲染。若您是通过Chrome浏览器浏览github页面，推荐安装Chrome插件[MathJax Plugin for Github](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima)以支持渲染latex公式。
+若干文件中含有latex公式，github并不支持渲染。若您是通过PC端Chrome浏览器浏览github页面，推荐安装Chrome插件[MathJax Plugin for Github](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima)以支持渲染latex公式。

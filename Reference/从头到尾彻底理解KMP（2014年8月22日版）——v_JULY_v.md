@@ -618,9 +618,9 @@ int KmpSearch(char* s, char* p)
   下面举个例子说明下Sunday算法。假定现在要在文本串"substring searching algorithm"中查找模式串"search"。
 
   *1*. 刚开始时，把模式串与文本串左边对齐：
-substr**i**ng searching algorithm
-search
-^
+  substr**i**ng searching algorithm
+  search
+  ^
   *2*. 结果发现在第2个字符处发现不匹配，不匹配时关注文本串中参加匹配的最末位字符的下一位字符，即标粗的字符 i，因为模式串search中并不存在i，所以模式串直接跳过一大片，向右移动位数 = 匹配串长度 + 1 = 6 + 1 = 7，从 i 之后的那个字符（即字符n）开始下一步的匹配，如下图：
 
 substring sea**r**ching algorithm
